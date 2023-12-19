@@ -33,8 +33,8 @@ def apply_corruption_to_folder(input_folder, output_folder, corruption_list=None
 
 
 if __name__ == '__main__':
-    input_folder = "/Users/allenpandas/Desktop/test"  # 原图像目录
-    output_folder = "/Users/allenpandas/Desktop/test-ir"  # 输出图像目录
+    input_folder = ""  # 原图像目录
+    output_folder = ""  # 输出图像目录
     # 支持的corruption效果
     custom_corruption_list = [
         'gaussian_noise', 'shot_noise', 'impulse_noise', 'defocus_blur',
