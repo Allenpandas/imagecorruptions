@@ -63,15 +63,3 @@ if __name__ == '__main__':
 **Notice:** You can set `input_folder` as the directory for the original images and `output_folder` as the directory for the resulting images.
 
 Now, the currently supported **corruption** methods include the following: gaussian_noise（高斯噪声）、shot_noise（抖动噪声）、impulse_noise（脉冲噪声）、defocus_blur（虚焦模糊）、motion_blur（运动模糊）、zoom_blur（缩放模糊）、snow（雪花）、fog（雾）、contrast（对比度）、elastic_transform（弹性变换）、pixelate（像素化）、jpeg_compression（JPEG压缩）、speckle_noise（斑点噪声）、spatter（飞溅）
-
-## Citation
-
-If you use the imagecorruptions package, please consider citing:
-```
-@article{michaelis2019dragon,
-  title={Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming},
-  author={Michaelis, Claudio and Mitzkus, Benjamin and Geirhos, Robert and Rusak, Evgenia and Bringmann, Oliver and Ecker, Alexander S. and Bethge, Matthias and Brendel, Wieland},
-  journal={arXiv preprint arXiv:1907.07484},
-  year={2019}
-}
-```
