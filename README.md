@@ -4,7 +4,7 @@
 
 **[中文](./README.zh-CN.md)** | **[English](./README.md)**
 
-This repository was forked from [CrazyVertigo/imagecorruptions](https://github.com/CrazyVertigo/imagecorruptions) and is maintained by [Allenpandas](https://github.com/Allenpandas) who has made optimizations and adjustments based on the [original repository's code](https://github.com/CrazyVertigo/imagecorruptions). If you have any questions, feel free to submit a [pull request](https://github.com/Allenpandas/imagecorruptions/pulls) 🤝, or [contact me](https://github.com/users/follow?target=Allenpandas) 📮. This package provides a set of corruptions that can be applied to images in order to benchmark the robustness of neural networks. These corruptions are not meant to be used as training data augmentation but rather to test the networks against unseen perturbations. For more information have a look at the paper on the original corruption package by Hendrycks and Dietterich: [Benchmarking Neural Network Robustness to Common Corruptions and Surface Variations](https://arxiv.org/abs/1807.01697).
+This repository was forked from [CrazyVertigo/imagecorruptions](https://github.com/CrazyVertigo/imagecorruptions) and is maintained by [Allenpandas](https://github.com/Allenpandas) who has made optimizations and adjustments based on the original repository's code. If you have any questions, feel free to submit a [pull request](https://github.com/Allenpandas/imagecorruptions/pulls) 🤝, or [contact me](https://github.com/users/follow?target=Allenpandas) 📮. This package provides a set of corruptions that can be applied to images in order to benchmark the robustness of neural networks. These corruptions are not meant to be used as training data augmentation but rather to test the networks against unseen perturbations. For more information have a look at the paper on the original corruption package by Hendrycks and Dietterich: [Benchmarking Neural Network Robustness to Common Corruptions and Surface Variations](https://arxiv.org/abs/1807.01697).
 
 **Notice:** This repository folked from [CrazyVertigo/imagecorruptions](https://github.com/CrazyVertigo/imagecorruptions) , and [CrazyVertigo/imagecorruptions](https://github.com/CrazyVertigo/imagecorruptions)  folked from [bethgelab/imagecorruptions](https://github.com/bethgelab/imagecorruptions).
 
@@ -39,12 +39,8 @@ Note that the first 15 image corruptions are the common corruptions (the ones yo
 If you use our code or the imagecorruptions package, please consider citing:
 ```
 @article{michaelis2019dragon,
-  title={Benchmarking Robustness in Object Detection: 
-    Autonomous Driving when Winter is Coming},
-  author={Michaelis, Claudio and Mitzkus, Benjamin and 
-    Geirhos, Robert and Rusak, Evgenia and 
-    Bringmann, Oliver and Ecker, Alexander S. and 
-    Bethge, Matthias and Brendel, Wieland},
+  title={Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming},
+  author={Michaelis, Claudio and Mitzkus, Benjamin and Geirhos, Robert and Rusak, Evgenia and Bringmann, Oliver and Ecker, Alexander S. and Bethge, Matthias and Brendel, Wieland},
   journal={arXiv preprint arXiv:1907.07484},
   year={2019}
 }
