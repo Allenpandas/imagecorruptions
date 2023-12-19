@@ -2,7 +2,9 @@
 
 ![image corruptions](https://raw.githubusercontent.com/bethgelab/imagecorruptions/master/assets/corruptions_sev_3.png?token=ACY4L7YQWNOLTMRRO53U6FS5G3UF6)
 
-**[中文](./README.zh-CN.md)** | **[English](./README.md)**
+## Introduction
+
+**[简体中文](./README.zh-CN.md)** | English
 
 This repository was forked from [CrazyVertigo/imagecorruptions](https://github.com/CrazyVertigo/imagecorruptions) and is maintained by [Allenpandas](https://github.com/Allenpandas) who has made optimizations and adjustments based on the original repository's code. If you have any questions, feel free to submit a [pull request](https://github.com/Allenpandas/imagecorruptions/pulls) 🤝, or [contact me](https://github.com/users/follow?target=Allenpandas) 📮. This package provides a set of corruptions that can be applied to images in order to benchmark the robustness of neural networks. These corruptions are not meant to be used as training data augmentation but rather to test the networks against unseen perturbations. For more information have a look at the paper on the original corruption package by Hendrycks and Dietterich: [Benchmarking Neural Network Robustness to Common Corruptions and Surface Variations](https://arxiv.org/abs/1807.01697).
 
@@ -63,3 +65,9 @@ if __name__ == '__main__':
 **Notice:** You can set `input_folder` as the directory for the original images and `output_folder` as the directory for the resulting images.
 
 Now, the currently supported **corruption** methods include the following: gaussian_noise（高斯噪声）、shot_noise（抖动噪声）、impulse_noise（脉冲噪声）、defocus_blur（虚焦模糊）、motion_blur（运动模糊）、zoom_blur（缩放模糊）、snow（雪花）、fog（雾）、contrast（对比度）、elastic_transform（弹性变换）、pixelate（像素化）、jpeg_compression（JPEG压缩）、speckle_noise（斑点噪声）、spatter（飞溅）
+
+## Changelog
+
+**0.1.0-alpha** was released in 19/12/2023:
+
+- Organize and optimize the original code, add the `examples.py` and `README.md` .
