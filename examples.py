@@ -18,7 +18,8 @@ def apply_corruption(input_image_path, output_folder, corruption_list=None):
     # 转换处理后的图像数组为 PIL 图像对象
     corrupted_image = Image.fromarray(corrupted_image_array)
     # 拼接输出图像的文件名和路径
-    output_image_path = os.path.join(output_folder, os.path.basename(input_image_path))
+    output_image_name = f"cor_{corruption_name}_{os.path.basename(input_image_path)}"
+    output_image_path = os.path.join(output_folder, output_image_name)
     # 保存输出图像
     corrupted_image.save(output_image_path)
 
